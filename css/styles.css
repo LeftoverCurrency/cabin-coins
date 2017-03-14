@@ -1,0 +1,121 @@
+/*
+Project Name: Cabin Coins
+Client: LOC Ltd
+Author: Mario Van Poppel
+Developer @GA in London
+*/
+
+/******************************************
+/* COLORS
+/*******************************************/
+
+/* Background light gray #f0f1f3 */
+/* Logo dark gray #504f57 */
+/* Circle middle gray #63666f */
+/* Plane middle gray #919798 */
+/* Plane light gray #b5bdc3 */
+/* Clear blue sky #29abe9 */
+/* Shadow blue gray #abbed2 */
+/* Shadow blue black #050f25 */
+/* Purse brown leather #814b1a */
+/* Purse middle brown handle #50230e */
+/* Purse very dark brown #1f0a09 */
+/* Coin gold #cba43b */
+/* Coin gold light #e3bd51 */
+/* Passport bordeaux red #741133 */
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*, *:before, *:after {
+	-moz-box-sizing: border-box; /* Firexfox */
+	-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+	box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/******************************************
+/* MAIN STYLES
+/*******************************************/
+
+body {
+	font-family: sans-serif;
+	background-color: #f0f1f3;
+	font-size: 18px;
+}
+
+header {
+	background-color: #741133;
+	color: #cba43b;
+	border-bottom: 1px dotted #cba43b;
+}
+
+/******************************************
+/* TOP NAVIGATION
+/*******************************************/
+
+.topnav li {
+	font-family: 'Julius Sans One', sans-serif;
+	float: left;
+	font-size: 1.1em; 
+}
+
+.topnav a {
+	color: inherit;
+	text-decoration: none;
+	display: block; 
+	padding: 18px 40px;
+}
+
+.topnav a:hover {
+	text-decoration: underline;
+	color: #e3bd51;
+}
+
+
+/******************************************
+/* HERO IMAGE
+/*******************************************/
+
+.hero {
+	padding: 2%;
+	float: left;
+}
+
+/******************************************
+/* LOGO
+/*******************************************/
+
+.logo {
+
+	font-family: 'Julius Sans One', sans-serif;
+	color: #504f57;
+	float: right;
+	font-size: 3em;
+	font-weight: bolder;
+	padding-right: 12%;
+	padding-top: 30px;
+}
+
+/******************************************
+/* MOTTO
+/*******************************************/
+
+.motto {
+	float: right;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-right: 12%;
+	padding-top: 5px;
+}
