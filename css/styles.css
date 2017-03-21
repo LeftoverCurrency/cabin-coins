@@ -94,28 +94,37 @@ header {
 }
 
 /******************************************
-/* LOGO
+/* SHOPWINDOW
 /*******************************************/
 
-.logo {
-
-	font-family: 'Julius Sans One', sans-serif;
-	color: #504f57;
-	float: right;
-	font-size: 3em;
-	font-weight: bolder;
-	padding-right: 12%;
-	padding-top: 30px;
+.shopwindow {
+	margin-right: 10%;
+	margin-top: 20px;
 }
 
 /******************************************
-/* MOTTO
+/* BRANDING
 /*******************************************/
 
-.motto {
-	float: right;
-	font-size: 1.5em;
-	font-weight: bold;
-	padding-right: 12%;
-	padding-top: 5px;
+.logo {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #504f57;
+	font-size: 3.5em;
+	font-weight: bolder;
+	text-align: right;
+}
+
+.subtitle {
+	color: #63666f;
+	font-size: 2em;
+	text-align: right;
+}
+
+/******************************************
+/* INTRO
+/*******************************************/
+
+.intro{
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
