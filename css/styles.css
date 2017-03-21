@@ -100,6 +100,7 @@ header {
 .shopwindow {
 	margin-right: 10%;
 	margin-top: 20px;
+	float: right;
 }
 
 /******************************************
@@ -121,10 +122,22 @@ header {
 }
 
 /******************************************
+/* WHITEBOX
+/*******************************************/
+
+.whitebox {
+	background-color: #fff;
+}
+
+/******************************************
 /* INTRO
 /*******************************************/
 
 .intro{
 	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.currencylist{
 	margin-bottom: 20px;
 }
