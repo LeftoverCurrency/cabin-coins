@@ -49,21 +49,23 @@
 				<legend>About you</legend>
 
 				<li class="formitem">
-				<label for="firstname">First Name:</label>
+				<label class="fixwidth" for="firstname">First Name:</label>
 				<input placeholder="Elvis" id="firstname type="text" name="firstname" />
 				</li>
 
 				<li class="formitem">
-				<label for="lastname">Last Name:</label>
+				<label class="fixwidth" for="lastname">Last Name:</label>
 				<input placeholder="Presley" id="lastname type="text" name="lastname" />
 				</li>
 
 				<li class="formitem">
-				<label for="email">Email:</label>
-				<input placeholder="blue_suede@sho.es" id="email type="email" name="email" />
+				<label class="fixwidth" for="email">Email:</label>
+				<input placeholder="blue_suede@sho.es" id="email type="email" name="email" required="" />
 				</li>
 
 			</fieldset>
+
+			<fieldset>
 
 				<legend>Choose one, because you must</legend>
 
@@ -83,7 +85,7 @@
 				</li>
 
 				<li class="formitem">
-				<label>4. Go go go</label>
+				<label>4. Go cat go</label>
 				<input type="radio" name="chooseone" value="go">
 				</li>
 
@@ -92,7 +94,7 @@
 				<input type="radio" name="chooseone" value="shoes" disabled="">
 				</li>
 
-			<fieldset>
+			</fieldset>	
 
 			<fieldset>
 				
@@ -135,13 +137,21 @@
 
 
 			</fieldset>
-				
 
 
+			<fieldset>
+
+				<legend>How we feeling?</legend>
+
+				<li class="formitem">
+				<label>Funkyness score 0-10</label>
+				<input type="range" name="funkymeter" min="0" max="11"/>
+				</li>
 
 			</fieldset>
 
-				<button>Submit</button>
+
+				<button>Go cat go!</button>
 
 			</ul>
 

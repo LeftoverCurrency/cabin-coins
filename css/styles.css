@@ -170,11 +170,17 @@ legend{
 	font-size: 1.5em;
 	margin-bottom: 10px;
 	margin-top: 20px;
+	text-decoration: underline;
 }
 
 fieldset{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	
+	margin-top: 20px;
+	margin-bottom: 20px;
+
 }
+
+#range{
+	color: #73b200;
+}
+
 
