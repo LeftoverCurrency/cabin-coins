@@ -179,8 +179,10 @@ fieldset{
 
 }
 
-#range{
-	color: #73b200;
+.hint{
+	font-size: 0.5em;
+	color: #b5bdc3;
+	margin-left: 5px;
 }
 
 
